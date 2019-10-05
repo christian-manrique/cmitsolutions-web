@@ -1,0 +1,154 @@
+
+@media (min-width: 560px){
+
+    .social-header {
+        margin-top: 15px;
+    }
+    .tagline h3{
+        font-size: 24px;
+    }
+    
+    .gallery-image {
+        padding-left: 15px !important;
+    }
+}
+
+
+@media (min-width: 768px){
+    
+    a.read-more{
+        margin-left: 0;
+    }
+    
+    p.new-date{
+        text-align: left;
+    }
+    
+    .close-content{
+        margin-top: 0;
+    }
+    
+    .navbar-brand>img{
+        width: 100%
+    }
+
+    
+    .social-feed h2 {
+        font-size: 35px;
+    }
+    
+    .parallax-1 h3 span {
+        font-size: 30px;
+    }
+
+    .image-wrapper:after {
+        bottom: -14px;
+        right: -14px;
+    }
+    
+    #carousel-gallery .carousel-inner>.item {
+    background: #fff;
+    padding-right: 15px;
+}
+    
+
+    .navbar-nav {
+        float: right !important;
+    }
+    .nav>li:last-child a {
+        padding: 15px 0;
+    }
+    .navbar-nav>li {
+        float: left;
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    .masonry { /* Masonry container */
+    column-count: 2;
+    column-gap: 1em;
+    }
+    
+    .share-new-home{
+        text-align: left;
+    }
+    .share-icons{
+        text-align: right;
+        padding-top: 0;
+    }
+        #carousel-news .carousel-control{
+        display: none;
+    }
+}
+
+@media (min-width: 992px){
+    .parallax-1{
+        background-attachment: fixed;
+    }
+    
+    .new-item h2{
+        font-size: 14px;
+    }
+    .masonry { /* Masonry container */
+    column-count: 3;
+    column-gap: 1em;
+}
+    
+    #carousel-home .carousel-inner{
+    min-height: 580px;
+}
+
+#carousel-home .carousel-inner>.active {
+    left: 0;
+    min-height: 580px;
+}
+
+#carousel-home .carousel-inner>.item {
+    background-size: cover;
+    min-height: 580px;
+    width: 100%;
+    background-position: top center;
+    margin: 0;
+}
+
+#carousel-home .item-container {
+    min-height: 580px;
+    padding: 0 !important;
+    background: transparent;
+}
+    
+.tagline h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.control-containers {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 50%;
+    width: 100%;
+}
+    .tagline{
+        padding: 30px 0 50px 0;
+    }
+
+#expand-gallery {
+    display: inline-block;
+} 
+}
+
+
+
+@media (min-width: 1200px){
+.navbar-nav>li {
+    float: left;
+    margin-left: 85px;
+    margin-top: 15px;
+}
+    
+    .navbar-default .navbar-nav>li>a{
+        letter-spacing: 2px;
+    }
+}
+
